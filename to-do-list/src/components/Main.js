@@ -1,9 +1,11 @@
 import React from 'react'
 
+import Checkbox from "./Checkbox"
+
 function Main() {
     return(
         <main>
-            <p>This is where most of my content will go...</p>
+            <Checkbox/>
         </main>
     )
 }

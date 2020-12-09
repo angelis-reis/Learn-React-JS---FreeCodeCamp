@@ -1,16 +1,25 @@
-import React from 'react'
+import React from "react"
 
-import Footer from './Footer'
-import Nav from './Nav'
-import Main from './Main'
+import Header from "./Header"
+import Main from "./Main"
+import Footer from "./Footer"
+
+import "../styles/Style.css"
 
 function App(){
+
+    const firstName="Frederico"
+    const lastName="Reis"
     return(
         <div>
-            <Nav/>
-            <Main/>
-            <Footer/>
-        </div>
+            {/* <Header/>,
+            <Main/>,
+            <Footer/>    */}
+
+            <h1>Helo {'${firstName} !</h1>
+
+
+        </div>     
     )
 }
 
